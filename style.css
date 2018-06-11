@@ -1,0 +1,78 @@
+body{
+  background-color:#F5FFFF;
+  font-family: 'Song Myung';
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  grid-area: auto;
+  display: inline-grid;
+  grid-gap: 1em;
+}
+
+.box {
+  background-color: beige;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  margin: 3%;
+}
+
+.titre {
+  text-align: center;
+}
+
+.img {
+  display:block;
+  margin: 0 auto 0 auto;
+  width:1200px;
+  height:267px;
+  margin-top: 66px;
+}
+
+#background {
+  position:fixed;
+  width:100%;
+  top:0px;
+  background-color:#0384C6;
+}
+
+#nav ul li {
+  list-style-type:none;
+  display:inline;
+  margin:90px;
+}
+
+a:link {
+  text-decoration:none;
+  color:beige;
+}
+
+#footer li {
+  list-style-type:none;
+  display:inline;
+  margin:90px;
+}
+
+#conteneur {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around; 
+}
+
+.padding {
+  padding: 8px 8px 8px 8px;
+}
+
+.img-new {
+  width:461px;
+	height:303px;
+}
